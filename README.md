@@ -19,9 +19,9 @@ We test our inference script under the following prerequisites:
 - We use miniconda to install our dependencies. We strongly recommend using [conda](https://docs.conda.io/en/latest/) for installation.
 
 ## Installation
-We test our implementation using Python 3.9.10. To setup the environment, you can use the following command:
+We test our implementation using Python 3.9. To setup the environment, you can use the following command:
 ```
-conda create --name vecgan python=3.9.10
+conda create --name vecgan python=3.9
 ```
 Our implementation is based on PyTorch 1.10 and cudatoolkit 11.3. You can install these packages using the [official instructions](https://pytorch.org/get-started/previous-versions/):
 ```
