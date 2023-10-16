@@ -68,7 +68,7 @@ python inference.py --device <cuda or cpu> \
 For more details about the inference options, you can check `config/model_config.py`. 
 
 ## Sample Images
-To ensure that the model works as intended, we provide sample images in the `samples`` folder for the tags bangs, hair color, age, gender, and smile along with the outputs. You can find the used tag, attribute and z values in the output file name.
+To ensure that the model works as intended, we provide sample images in the `samples` folder for the tags bangs, hair color, age, gender, and smile along with the outputs. You can find the used tag, attribute and z values in the output file name.
 
 ## Failure Cases
 Even though we achieve successful editing results on the CelebA-HQ dataset, our model fails on certain cases, as we discuss in the paper presenting VecGAN++. Below, you can see a table of common failiure cases faced by our model. For a more detailed discussion of such cases please refer to the [paper](https://ieeexplore.ieee.org/document/10229229).
